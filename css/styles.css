@@ -1,0 +1,22 @@
+/* Joel sometimes starts his code with this to erase inherent values that sometimes get brought it. Gives a clean page */
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* display: block allows the image to now be on its own instead of inline */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* vw means view width; adjusts to the screen of the device viewing it. You can also use vh for view height. */
+p {
+    text-align: center;
+    font-size: 3vw;
+    word-wrap: break-word;
+}
